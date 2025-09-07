@@ -1,0 +1,8 @@
+{
+    "craftId": i32,
+    "bookItemId": i32,
+    "xpFactor": f32,
+    "innate": bool,
+    "conceptualCraft": bool,
+    "hiddenCraft": bool,
+}

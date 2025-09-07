@@ -1,0 +1,5 @@
+{
+    "id": i32,
+    "itemRefId": i32,
+    "gfxId": i32,
+}

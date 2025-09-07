@@ -1,0 +1,10 @@
+{
+    "id": i32,
+    "criteria": String,
+    "answers": Vec(Struct({
+        "id": i32,
+        "criterion": String,
+        "kind": i32,
+        "clientOnly": bool,
+    })),
+}

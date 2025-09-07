@@ -1,0 +1,19 @@
+{
+    "id": i32,
+    "kind": i32,
+    "dropRate": i16,
+    "maxCount": i16,
+    "criterion": String,
+    "filters": Vec(String),
+    "activeOnStart": bool,
+    "actionGroups": Vec(Struct({
+        "id": i32,
+        "dropRate": i16,
+        "criterion": String,
+        "actions": Vec(Struct({
+            "id": i32,
+            "kind": i32,
+            "params": Vec(String),
+        })),
+    })),
+}

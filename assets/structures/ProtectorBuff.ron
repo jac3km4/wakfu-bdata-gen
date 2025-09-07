@@ -1,0 +1,7 @@
+{
+    "buffId": i32,
+    "gfxId": i32,
+    "criteria": String,
+    "origin": i8,
+    "effects": Vec(i32),
+}

@@ -1,0 +1,7 @@
+{
+    "id": i32,
+    "patchId": i32,
+    "kamaCost": i32,
+    "categoryId": i32,
+    "soundId": i32,
+}

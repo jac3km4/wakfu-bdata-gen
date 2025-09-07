@@ -1,0 +1,7 @@
+{
+    "id": i32,
+    "entries": Vec(Struct({
+        "challengeId": i32,
+        "criteria": String,
+    })),
+}

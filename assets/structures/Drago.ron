@@ -1,0 +1,10 @@
+{
+    "dragoId": i32,
+    "exitX": i32,
+    "exitY": i32,
+    "visualId": i32,
+    "uiGfxId": i32,
+    "dragoCriterion": String,
+    "landmarkTravelType": i8,
+    "loading": Struct({}),
+}

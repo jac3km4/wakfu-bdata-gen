@@ -1,0 +1,7 @@
+{
+    "bonusId": i32,
+    "categoryId": i32,
+    "max": i32,
+    "gfxId": i32,
+    "effectIds": Vec(i32),
+}

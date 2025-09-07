@@ -1,0 +1,6 @@
+{
+    "id": i16,
+    "linkedItemReferenceId": i32,
+    "itemsId": Vec(i32),
+    "effectIdsByPartCount": Map(i32, Vec(i32)),
+}

@@ -1,0 +1,29 @@
+{
+    "id": i32,
+    "values": Vec(Struct({
+        "sex": i8,
+        "defaultSkinIndex": i8,
+        "defaultSkinFactor": i8,
+        "defaultHairIndex": i8,
+        "defaultHairFactor": i8,
+        "defaultPupilIndex": i8,
+        "skinColors": Vec(Struct({
+            "red": f32,
+            "green": f32,
+            "blue": f32,
+            "alpha": f32,
+        })),
+        "hairColors": Vec(Struct({
+            "red": f32,
+            "green": f32,
+            "blue": f32,
+            "alpha": f32,
+        })),
+        "pupilColors": Vec(Struct({
+            "red": f32,
+            "green": f32,
+            "blue": f32,
+            "alpha": f32,
+        })),
+    })),
+}

@@ -1,0 +1,6 @@
+{
+    "loadingAnimationName": String,
+    "loadingMinDuration": i32,
+    "loadingFadeInDuration": i32,
+    "loadingFadeOutDuration": i32,
+}

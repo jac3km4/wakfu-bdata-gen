@@ -1,0 +1,18 @@
+{
+    "id": i32,
+    "visualId": i32,
+    "capacity": i16,
+    "locked": bool,
+    "cashQty": i32,
+    "items": Vec(Struct({
+        "uid": i32,
+        "itemId": i32,
+        "qty": i32,
+    })),
+    "actions": Vec(Struct({
+        "actionId": i32,
+        "actionType": i32,
+        "params": Vec(String),
+        "criteria": String,
+    })),
+}

@@ -1,0 +1,17 @@
+{
+    "protectorId": i32,
+    "faunaProtection": Vec(Struct({
+        "monsterFamilyId": i32,
+        "protectionCost": i32,
+        "reintroductionCost": i32,
+        "reintroductionItemId": i32,
+        "reintroductionItemQty": i16,
+    })),
+    "floraProtection": Vec(Struct({
+        "resourceFamilyId": i32,
+        "protectionCost": i32,
+        "reintroductionCost": i32,
+        "reintroductionItemId": i32,
+        "reintroductionItemQty": i16,
+    })),
+}

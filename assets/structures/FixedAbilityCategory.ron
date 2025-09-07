@@ -1,0 +1,5 @@
+{
+    "categoryId": i32,
+    "levels": Vec(i32),
+    "bonusIds": Vec(i32),
+}

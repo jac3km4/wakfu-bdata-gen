@@ -1,0 +1,7 @@
+{
+    "id": i32,
+    "kindId": i32,
+    "gfxId": i32,
+    "forPlayer": bool,
+    "effectIds": Vec(i32),
+}

@@ -1,0 +1,30 @@
+{
+    "id": i32,
+    "categoryId": i32,
+    "duration": i64,
+    "criteria": String,
+    "visibilityCriteria": String,
+    "level": i32,
+    "properties": Vec(i32),
+    "xpRatio": i32,
+    "machinesUsingRecipe": Vec(i32),
+    "successRate": i32,
+    "contractEnabled": bool,
+    "neededKamas": i64,
+    "xp": i64,
+    "ingredients": Vec(Struct({
+        "itemId": i32,
+        "quantity": i16,
+        "_3": i16,
+    })),
+    "products": Vec(Struct({
+        "itemId": i32,
+        "quantity": i16,
+    })),
+    "materials": Vec(Struct({
+        "minLevel": i16,
+        "minRarity": i16,
+        "optionnal": bool,
+        "materialTypes": Vec(i32),
+    })),
+}

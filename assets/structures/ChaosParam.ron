@@ -1,0 +1,4 @@
+{
+    "chaosLevel": i8,
+    "chaosCollectorParamId": i32,
+}

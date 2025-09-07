@@ -1,0 +1,25 @@
+{
+    "id": i32,
+    "catalogEntryId": i16,
+    "kamaCost": i32,
+    "ressourceCost": i32,
+    "workersGranted": i8,
+    "workers": i8,
+    "editorGroupId": i32,
+    "canBeDestroyed": bool,
+    "interactives": Vec(Struct({
+        "uid": i32,
+        "templateId": i32,
+        "x": i8,
+        "y": i8,
+        "z": i8,
+    })),
+    "skins": Vec(Struct({
+        "itemId": i32,
+        "editorGroupId": i32,
+    })),
+    "effectIds": Vec(i32),
+    "worldEffects": Vec(Struct({
+        "buffId": i32,
+    })),
+}

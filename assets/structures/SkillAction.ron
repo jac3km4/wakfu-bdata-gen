@@ -1,0 +1,7 @@
+{
+    "id": i32,
+    "mruGfxId": i32,
+    "mruKey": String,
+    "associatedItems": Vec(i32),
+    "animLinkage": String,
+}

@@ -1,0 +1,10 @@
+{
+    "id": i32,
+    "kind": i16,
+    "pages": Vec(Struct({
+        "id": i32,
+        "order": i16,
+        "template": i16,
+        "imageId": i32,
+    })),
+}

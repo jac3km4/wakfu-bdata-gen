@@ -1,0 +1,5 @@
+{
+    "id": i32,
+    "resourceFertility": Map(i32, i16),
+    "resourceTypeFertility": Map(i16, i16),
+}

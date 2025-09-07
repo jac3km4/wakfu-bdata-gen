@@ -1,0 +1,8 @@
+{
+    "id": i32,
+    "catalogEntryId": i16,
+    "fromId": i32,
+    "toId": i32,
+    "delay": i64,
+    "order": i8,
+}

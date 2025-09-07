@@ -1,0 +1,9 @@
+{
+    "id": i32,
+    "worldId": i16,
+    "workers": i8,
+    "exitWorldId": i16,
+    "exitCellX": i16,
+    "exitCellY": i16,
+    "exitCellZ": i16,
+}

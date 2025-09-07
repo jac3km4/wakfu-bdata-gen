@@ -1,0 +1,5 @@
+{
+    "id": i32,
+    "audioMarkerTypeId": i32,
+    "isLocalized": bool,
+}

@@ -1,0 +1,27 @@
+{
+    "id": i32,
+    "worldId": i16,
+    "challenges": Vec(Struct({
+        "id": i32,
+        "ratio": f32,
+    })),
+    "rewardsList": Vec(Struct({
+        "id": i32,
+        "levelOrder": i32,
+        "rewards": Vec(Struct({
+            "scoreMin": i32,
+            "itemId": i32,
+            "xpValue": i32,
+            "rankNeeded": i8,
+        })),
+    })),
+    "ranks": Vec(Struct({
+        "levelOrder": i32,
+        "scoreMinD": i32,
+        "scoreMinC": i32,
+        "scoreMinB": i32,
+        "scoreMinA": i32,
+    })),
+    "scoreRoundBase": i32,
+    "scoreRoundIncr": i32,
+}

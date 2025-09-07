@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "minLevel": i16,
+    "instanceId": i16,
+    "tps": Vec(i32),
+}

@@ -1,0 +1,10 @@
+{
+    "id": i32,
+    "pdv": i32,
+    "regenDelay": i32,
+    "resWater": i32,
+    "resFire": i32,
+    "resEarth": i32,
+    "resWind": i32,
+    "effectIds": Vec(i32),
+}

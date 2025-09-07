@@ -1,0 +1,7 @@
+{
+    "id": i32,
+    "catalogEntryId": i16,
+    "kamaCost": i32,
+    "ressourceCost": i32,
+    "editorGroupId": i32,
+}

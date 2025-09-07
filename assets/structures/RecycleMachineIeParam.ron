@@ -1,0 +1,5 @@
+{
+    "id": i32,
+    "visualMruId": i32,
+    "chaosParams": Struct({}),
+}

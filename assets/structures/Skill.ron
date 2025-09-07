@@ -1,0 +1,12 @@
+{
+    "id": i32,
+    "kind": i32,
+    "scriptId": i32,
+    "mruGfxId": i32,
+    "mruKey": String,
+    "animLinkage": String,
+    "associatedItemTypes": Vec(i32),
+    "associatedItems": Vec(i32),
+    "maxLevel": i32,
+    "isInnate": bool,
+}

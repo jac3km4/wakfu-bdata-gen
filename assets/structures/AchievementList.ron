@@ -1,0 +1,7 @@
+{
+    "id": i32,
+    "elements": Vec(Struct({
+        "achievementId": i32,
+        "order": i32,
+    })),
+}

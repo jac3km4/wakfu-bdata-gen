@@ -1,0 +1,14 @@
+{
+    "id": i32,
+    "breedId": i16,
+    "characteristicId": i8,
+    "uiId": i32,
+    "aptitudeGfxId": i32,
+    "spellGfxId": i32,
+    "maxLevel": i16,
+    "constantCost": i32,
+    "variableCost": Vec(i32),
+    "linkedSpellId": i32,
+    "levelUnlock": Vec(i32),
+    "effectIds": Vec(i32),
+}

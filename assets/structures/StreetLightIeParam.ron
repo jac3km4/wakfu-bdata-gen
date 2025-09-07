@@ -1,0 +1,14 @@
+{
+    "id": i32,
+    "color": i32,
+    "range": f32,
+    "apsId": i32,
+    "activeOnlyInNight": bool,
+    "ignitionVisualId": i32,
+    "ignitionUseObject": bool,
+    "ignitionDuration": i32,
+    "extinctionVisualId": i32,
+    "extinctionUseObject": bool,
+    "extinctionDuration": i32,
+    "chaosParams": Struct({}),
+}

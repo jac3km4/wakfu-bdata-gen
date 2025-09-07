@@ -1,0 +1,18 @@
+{
+    "id": i32,
+    "dropWeight": i32,
+    "dropCriterion": String,
+    "stateId": i32,
+    "listenedEffectSuccess": i32,
+    "listenedEffectFailure": i32,
+    "gfxId": i32,
+    "isBase": bool,
+    "incompatibleChallenges": Vec(i32),
+    "incompatibleMonsters": Vec(i32),
+    "rewards": Vec(Struct({
+        "id": i32,
+        "criterion": String,
+        "xpLevel": i16,
+        "dropLevel": i16,
+    })),
+}

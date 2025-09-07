@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "criterion": String,
+    "visualId": i32,
+    "chaosParams": Struct({}),
+}

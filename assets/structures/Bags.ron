@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "capacity": i16,
+    "bagType": i32,
+    "validItemCategories": Vec(i32),
+}

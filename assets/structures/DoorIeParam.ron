@@ -1,0 +1,8 @@
+{
+    "id": i32,
+    "visualId": i32,
+    "consumeItem": bool,
+    "itemNeeded": i32,
+    "kamaCost": i32,
+    "criterion": String,
+}

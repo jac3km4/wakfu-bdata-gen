@@ -1,0 +1,24 @@
+{
+    "id": i32,
+    "visuals": Vec(Struct({
+        "id": i32,
+        "visualId": i32,
+        "itemConsumed": i32,
+        "itemQuantity": i32,
+        "doConsumeItem": bool,
+        "kamaCost": i32,
+        "distributionDuration": i32,
+        "groupActions": Vec(Struct({
+            "id": i32,
+            "criteria": String,
+            "weight": f32,
+            "actions": Vec(Struct({
+                "actionId": i32,
+                "actionTypeId": i32,
+                "criteria": String,
+                "actionParams": Vec(String),
+            })),
+        })),
+    })),
+    "chaosParams": Struct({}),
+}

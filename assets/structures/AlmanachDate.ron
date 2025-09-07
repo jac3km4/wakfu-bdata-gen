@@ -1,0 +1,5 @@
+{
+    "id": i32,
+    "date": Timestamp,
+    "almanachEntryId": i32,
+}

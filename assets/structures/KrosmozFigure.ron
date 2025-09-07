@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "year": i32,
+    "addon": i32,
+    "season": i32,
+}

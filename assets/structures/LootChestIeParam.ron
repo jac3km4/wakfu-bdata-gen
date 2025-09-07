@@ -1,0 +1,13 @@
+{
+    "id": i32,
+    "visualId": i32,
+    "cooldown": i32,
+    "cost": i32,
+    "itemIdCost": i32,
+    "itemQuantityCost": i32,
+    "doConsumeItem": bool,
+    "nbActivation": i32,
+    "distributionDuration": i32,
+    "criteria": String,
+    "chaosParams": Struct({}),
+}

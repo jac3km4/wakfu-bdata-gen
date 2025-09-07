@@ -1,0 +1,10 @@
+{
+    "id": i32,
+    "start": i32,
+    "end": i32,
+    "cost": i32,
+    "criteria": String,
+    "criteriaDisplay": String,
+    "needsToPayEverytime": bool,
+    "loading": Struct({}),
+}

@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "randomRolls": i16,
+    "forcedRolls": i16,
+    "forcedChallenges": Vec(i32),
+}

@@ -1,0 +1,14 @@
+{
+    "id": i32,
+    "order": i32,
+    "buildingType": i32,
+    "categoryId": i32,
+    "buyable": bool,
+    "maxQuantity": i16,
+    "isDecoOnly": bool,
+    "buildingSoundId": i32,
+    "buildingCondition": Vec(Struct({
+        "buildingTypeNeeded": i32,
+        "quantity": i32,
+    })),
+}

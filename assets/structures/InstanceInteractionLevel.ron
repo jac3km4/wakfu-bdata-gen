@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "worldId": i32,
+    "subscriptionLevel": i32,
+    "interactionLevel": i32,
+}

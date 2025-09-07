@@ -1,0 +1,11 @@
+{
+    "id": i32,
+    "usedItem": i32,
+    "rewardItem": i32,
+    "quantity": i16,
+    "rewardKama": i32,
+    "rewardLootChest": i32,
+    "duration": i32,
+    "criterion": String,
+    "winPercent": f32,
+}

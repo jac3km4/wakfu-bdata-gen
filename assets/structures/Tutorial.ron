@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "eventIds": Vec(Struct({
+        "eventId": i32,
+    })),
+}

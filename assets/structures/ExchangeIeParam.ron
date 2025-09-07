@@ -1,0 +1,23 @@
+{
+    "id": i32,
+    "apsId": i32,
+    "visualMruId": i32,
+    "sortTypeId": i8,
+    "exchanges": Vec(Struct({
+        "exchangeId": i32,
+        "criteria": String,
+        "consumables": Vec(Struct({
+            "itemId": i32,
+            "quantity": i16,
+        })),
+        "consumableKama": i32,
+        "consumablePvpMoney": i32,
+        "resultings": Vec(Struct({
+            "itemId": i32,
+            "quantity": i16,
+            "forcedBindType": i8,
+        })),
+        "resultingKama": i32,
+    })),
+    "chaosParams": Struct({}),
+}

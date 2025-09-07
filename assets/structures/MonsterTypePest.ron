@@ -1,0 +1,5 @@
+{
+    "id": i32,
+    "familyId": i32,
+    "pestMonsterId": i32,
+}

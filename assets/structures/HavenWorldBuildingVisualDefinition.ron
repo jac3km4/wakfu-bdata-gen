@@ -1,0 +1,16 @@
+{
+    "id": i32,
+    "buildingId": i32,
+    "elements": Vec(Struct({
+        "uid": i32,
+        "gfxId": i32,
+        "hasGuildColor": bool,
+        "occluder": bool,
+        "height": i8,
+        "animName": String,
+        "direction": i8,
+        "x": i8,
+        "y": i8,
+        "z": i8,
+    })),
+}

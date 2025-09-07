@@ -1,0 +1,4 @@
+{
+    "buffListId": i32,
+    "entries": Vec(i32),
+}

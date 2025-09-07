@@ -1,0 +1,40 @@
+{
+    "id": i32,
+    "itemRefId": i32,
+    "gfxId": i32,
+    "itemColorRefId": i32,
+    "itemReskinRefId": i32,
+    "health": i32,
+    "minMealInterval": i64,
+    "maxMealInterval": i64,
+    "xpByMeal": i8,
+    "xpPerLevel": i16,
+    "levelMax": i16,
+    "mountType": i8,
+    "healthPenalties": Vec(Struct({
+        "penaltyType": i8,
+        "value": i8,
+    })),
+    "healthItems": Vec(Struct({
+        "itemId": i32,
+        "value": i32,
+    })),
+    "mealItems": Vec(Struct({
+        "itemId": i32,
+        "visible": bool,
+    })),
+    "sleepItems": Vec(Struct({
+        "itemId": i32,
+        "duration": i64,
+    })),
+    "equipmentItems": Vec(i32),
+    "colorItems": Vec(Struct({
+        "itemId": i32,
+        "partId": i32,
+        "colorABGR": i32,
+    })),
+    "reskinItems": Vec(Struct({
+        "itemId": i32,
+        "gfxId": i32,
+    })),
+}

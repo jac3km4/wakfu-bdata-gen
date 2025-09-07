@@ -1,0 +1,7 @@
+{
+    "id": i32,
+    "restrictionWorld": bool,
+    "restrictionMarket": bool,
+    "backgroundMapId": i32,
+    "innate": bool,
+}

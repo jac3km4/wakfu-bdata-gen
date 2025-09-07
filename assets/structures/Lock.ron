@@ -1,0 +1,8 @@
+{
+    "id": i32,
+    "lockedItemId": i32,
+    "lockValue": i32,
+    "periodDuration": i64,
+    "unlockDate": Timestamp,
+    "availableForCitizensOnly": bool,
+}

@@ -1,0 +1,9 @@
+{
+    "id": i32,
+    "kind": i16,
+    "gfx": i32,
+    "color": i32,
+    "height": i8,
+    "particleId": i32,
+    "particleOffsetZ": i32,
+}

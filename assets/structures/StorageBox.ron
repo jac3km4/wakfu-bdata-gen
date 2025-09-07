@@ -1,0 +1,12 @@
+{
+    "id": i32,
+    "visualId": i32,
+    "chaosParams": Struct({}),
+    "compartments": Vec(Struct({
+        "uid": i32,
+        "boxId": i32,
+        "unlockItemId": i32,
+        "capacity": i8,
+        "compartmentOrder": i32,
+    })),
+}

@@ -1,0 +1,10 @@
+{
+    "id": i32,
+    "kind": i16,
+    "cmd": String,
+    "needTarget": bool,
+    "moveToTarget": bool,
+    "infiniteDuration": bool,
+    "isMusical": bool,
+    "scriptParams": Vec(String),
+}

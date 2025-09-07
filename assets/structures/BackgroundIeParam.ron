@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "visualId": i32,
+    "backgroundFeedback": i32,
+    "chaosParams": Struct({}),
+}

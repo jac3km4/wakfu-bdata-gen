@@ -1,0 +1,5 @@
+{
+    "id": i32,
+    "backgroundFeedback": i32,
+    "havreGemTypes": Vec(i32),
+}

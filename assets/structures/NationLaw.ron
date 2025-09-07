@@ -1,0 +1,13 @@
+{
+    "id": i32,
+    "lawConstantId": i32,
+    "params": Vec(String),
+    "basePointsModification": i32,
+    "percentPointsModification": i32,
+    "lawPointCost": i32,
+    "lawLocked": bool,
+    "applicableToCitizen": bool,
+    "applicableToAlliedForeigner": bool,
+    "applicableToNeutralForeigner": bool,
+    "restrictedNations": Vec(i32),
+}

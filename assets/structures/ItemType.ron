@@ -1,0 +1,11 @@
+{
+    "id": i16,
+    "parentId": i16,
+    "visibleInAnimations": bool,
+    "visibleInMarketPlace": bool,
+    "recyclable": bool,
+    "equipmentPosition": Vec(String),
+    "disabledEquipementPosition": Vec(String),
+    "materialType": i16,
+    "craftIds": Vec(i32),
+}

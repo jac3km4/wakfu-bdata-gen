@@ -1,0 +1,7 @@
+{
+    "id": i32,
+    "deepSearch": bool,
+    "language": i32,
+    "censorType": i32,
+    "text": String,
+}

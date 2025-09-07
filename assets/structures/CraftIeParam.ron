@@ -1,0 +1,8 @@
+{
+    "id": i32,
+    "apsId": i32,
+    "visualMruId": i32,
+    "skillId": i32,
+    "allowedRecipes": Vec(i32),
+    "chaosParams": Struct({}),
+}

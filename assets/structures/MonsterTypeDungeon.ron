@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "familyId": i32,
+    "dungeonId": i32,
+    "level": i16,
+}

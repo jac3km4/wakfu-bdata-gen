@@ -1,0 +1,4 @@
+{
+    "breedId": i16,
+    "gains": Map(i8, f32),
+}

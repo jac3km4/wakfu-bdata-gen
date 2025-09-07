@@ -1,0 +1,5 @@
+{
+    "id": i32,
+    "name": String,
+    "exportForSteam": bool,
+}

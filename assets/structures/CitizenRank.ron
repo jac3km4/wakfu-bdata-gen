@@ -1,0 +1,8 @@
+{
+    "id": i32,
+    "cap": i32,
+    "pdcLossFactor": i32,
+    "translationKey": String,
+    "color": String,
+    "rules": Vec(i32),
+}

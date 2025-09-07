@@ -1,0 +1,8 @@
+{
+    "id": i32,
+    "visualId": i32,
+    "havenWorldId": i16,
+    "miniOriginCellX": i16,
+    "miniOriginCellY": i16,
+    "miniOriginCellZ": i16,
+}

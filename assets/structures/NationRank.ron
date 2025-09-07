@@ -1,0 +1,6 @@
+{
+    "id": i32,
+    "citizenPointLossFactor": f32,
+    "criteria": String,
+    "citizenScoreLine": i32,
+}

@@ -1,0 +1,10 @@
+{
+    "buffId": i32,
+    "gfxId": i32,
+    "criteria": String,
+    "duration": i32,
+    "price": i16,
+    "temperatureDifference": f32,
+    "rainDifference": f32,
+    "windDifference": f32,
+}
